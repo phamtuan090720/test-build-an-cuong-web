@@ -1,0 +1,474 @@
+.loadx {
+    background: url(../images/cycle.png) no-repeat center center
+}
+
+html[lang=vi] .logo-value {
+    background-image: url(../images/value.png)
+}
+
+html[lang=en] .logo-value {
+    background-image: url(../images/value_en.png)
+}
+
+.add::before {
+    background: url(../images/add.png) no-repeat center top
+}
+
+.navigation ul.menu-second li .has-sub::before {
+    background: url(../images/add.png) no-repeat center bottom
+}
+
+.input-select select {
+    background: url(../images/arrow-down.png) no-repeat right center
+}
+
+.ios {
+    background: url(../images/ios.svg) no-repeat center center/contain;
+    width: 50px
+}
+
+.android {
+    background: url(../images/android.svg) no-repeat center center/contain;
+    width: 50px
+}
+
+.design-tool {
+    background: url(../images/design-tool.svg) no-repeat center center/contain;
+    width: 135px
+}
+
+.apps-catalogue {
+    background: url(../images/apps-catalogue.svg) no-repeat center center/contain;
+    width: 135px
+}
+
+.zalo {
+    background: url(../images/zalo.svg) no-repeat center center/contain
+}
+
+.facebook {
+    background: url(../images/facebook.svg) no-repeat center center/contain
+}
+
+.youtube {
+    background: url(../images/youtube.svg) no-repeat center center/contain
+}
+
+.pinterest {
+    background: url(../images/pinterest.svg) no-repeat center center/contain
+}
+
+.linkedin {
+    background: url(../images/linkedin.svg) no-repeat center center/contain
+}
+
+.intergram {
+    background: url(../images/intergram.svg) no-repeat center center/contain
+}
+
+.item-intergram::before {
+    background: url(../images/intergram-grey.svg) no-repeat 50%/70%
+}
+
+.item-intergram::after {
+    background: url(../images/intergram-orange.svg) no-repeat 50%/70%
+}
+
+.item-facebook::before {
+    background: url(../images/facebook-grey.svg) no-repeat 50%/70%
+}
+
+.item-facebook::after {
+    background: url(../images/facebook-orange.svg) no-repeat 50%/70%
+}
+
+.item-linkedin::before {
+    background: url(../images/linkedin-grey.svg) no-repeat 50%/70%
+}
+
+.item-linkedin::after {
+    background: url(../images/linkedin-orange.svg) no-repeat 50%/70%
+}
+
+button[data-state=play] {
+    background-image: url(../images/video/play.svg)
+}
+
+button[data-state=pause] {
+    background-image: url(../images/video/pause.svg)
+}
+
+button[data-state=stop] {
+    background-image: url(../images/video/stop.svg);
+    width: 0;
+    height: 0;
+    opacity: 0
+}
+
+button[data-state=mute] {
+    background-image: url(../images/video/mute.svg)
+}
+
+button[data-state=unmute] {
+    background-image: url(../images/video/unmute.svg)
+}
+
+button[data-state=go-fullscreen] {
+    background-image: url(../images/video/fullscreen.svg)
+}
+
+button[data-state=cancel-fullscreen] {
+    background-image: url(../images/video/cancel-fullscreen.svg)
+}
+
+.slide-list-youtube .slide-next,
+.slide-table .slide-next {
+    background: url(../images/next1.svg) no-repeat center center/contain
+}
+
+.slide-list-youtube .slide-prev,
+.slide-table .slide-prev {
+    background: url(../images/previous1.svg) no-repeat center center/contain
+}
+
+.button-video {
+    background: url(../images/youtube2.svg) no-repeat center center/contain
+}
+
+.load-product .item-pic-project .view-album::after {
+    background: var(--color-black-alpha-02) url(../images/zoom.svg) no-repeat 50%/90%
+}
+
+.text-box::after {
+    background: url(../images/arrow-popup.svg) no-repeat right bottom
+}
+
+.table-count table td a::before {
+    background: url(../images/pdf_2.svg) no-repeat center center/contain
+}
+
+.list-title-group::after,
+.list-title::after {
+    background-image: url(../images/plus-white.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: left top
+}
+
+.list-item-group.open-group .list-title-group::after,
+.list-item.active .list-title::after {
+    background-position: right top
+}
+
+.address>span {
+    background: url(../images/contact-icon/add.svg) no-repeat center center/contain
+}
+
+.call>span {
+    background: url(../images/contact-icon/call.svg) no-repeat center center/contain
+}
+
+.phone>span {
+    background: url(../images/contact-icon/phone.svg) no-repeat center center/contain
+}
+
+.fax>span {
+    background: url(../images/contact-icon/fax.svg) no-repeat center center/contain
+}
+
+.email>span {
+    background: url(../images/contact-icon/email.svg) no-repeat center center/contain
+}
+
+.time>span {
+    background: url(../images/contact-icon/clock.svg) no-repeat center center/contain
+}
+
+.website>span {
+    background: url(../images/contact-icon/global.svg) no-repeat center center/contain
+}
+
+.tax>span {
+    background: url(../images/contact-icon/tax.svg) no-repeat center center/contain
+}
+
+.resume>span {
+    background: url(../images/contact-icon/resume.svg) no-repeat center center/contain
+}
+
+.represent>span {
+    background: url(../images/contact-icon/represent.svg) no-repeat center center/contain
+}
+
+.investment {
+    background: url(../images/pattern.png) repeat left top
+}
+
+.save-but::before {
+    background: url(../images/favorite.svg) no-repeat 50%/80%
+}
+
+.print-but::before {
+    background: url(../images/print.svg) no-repeat 50%/80%
+}
+
+.share-but::before {
+    background: url(../images/share.svg) no-repeat 50%/80%
+}
+
+.go-map {
+    background: url(../images/google-map.svg) no-repeat center center/contain
+}
+
+.fav-product {
+    background: url(../images/fav-product.svg) no-repeat center center/contain
+}
+
+.center-text h2::before {
+    background: url(../images/top-frame.svg) no-repeat center center
+}
+
+.center-text h2::after {
+    background: url(../images/bottom-frame.svg) no-repeat center center
+}
+
+.address-showroom::before {
+    content: '';
+    background: url(../images/add.svg) no-repeat 50%/90%
+}
+
+.phone-showroom::before {
+    content: '';
+    background: url(../images/phone.svg) no-repeat 50%/90%
+}
+
+.email-showroom::before {
+    content: '';
+    background: url(../images/email.svg) no-repeat 50%/90%
+}
+
+.download-image span {
+    background: url(../images/direct-download.svg) no-repeat 50%/80%
+}
+
+.fullsize span {
+    background: url(../images/video/fullscreen.svg) no-repeat 50%/80%
+}
+
+.fullsize.active span {
+    background: url(../images/video/cancel-fullscreen.svg) no-repeat 50%/80%
+}
+
+.address-icon {
+    background: url(../images/location.svg) no-repeat center center
+}
+
+.view-details::after {
+    background: var(--color-black-alpha-05) url(../images/zoom.svg) no-repeat 50%/80%
+}
+
+.download-but a::after {
+    background: var(--color-highlight) url(../images/select.png) no-repeat center center
+}
+
+.select-header .but {
+    background: url(../images/arrow-down.png) no-repeat center center
+}
+
+.select-header.onclick .but {
+    background: url(../images/arrow-up.png) no-repeat center center
+}
+
+.r-zip {
+    background: url(../images/zip.png) no-repeat center center
+}
+
+.regu-pdf span {
+    background: url(../images/icon-download.png) no-repeat center center
+}
+
+.close-box-map::after {
+    background: var(--color-normal) url(../images/close.png) no-repeat 50%/80%
+}
+
+.zoom-in {
+    background: var(--color-normal) url(../images/zoom-in.svg) no-repeat 50%/80%
+}
+
+.zoom-out {
+    background: var(--color-normal) url(../images/zoom-out.svg) no-repeat 50%/80%
+}
+
+.zoom-full {
+    background: var(--color-normal) url(../images/video/fullscreen.svg) no-repeat 50%/80%
+}
+
+.zoom-full.active {
+    background: var(--color-normal) url(../images/video/cancel-fullscreen.svg) no-repeat 50%/80%
+}
+
+.full img {
+    cursor: url(../images/openhand.png) 6 8, move
+}
+
+.zoom::after {
+    background: var(--color-black-alpha-02) url(../images/zoom.svg) no-repeat 50%/90%
+}
+
+.zoom-details::after {
+    background: var(--color-black-alpha-02) url(../images/zoom.svg) no-repeat 50%/80%
+}
+
+.zoom-large::after {
+    background: var(--color-black-alpha-02) url(../images/zoom.svg) no-repeat 50%/80%
+}
+
+.view-album::after {
+    background: url(../images/album.svg) no-repeat 50%/80%
+}
+
+.player-vid::before {
+    background: url(../images/play.svg) no-repeat 50%/80%
+}
+
+.close-album,
+.close-details,
+.close-pics,
+.close-popup,
+.close-video,
+.close-view {
+    background: var(--color-black-alpha-01) url(../images/close.svg) no-repeat 50%/80%
+}
+
+.close-pics-small {
+    background: var(--color-black-alpha-02) url(../images/close.svg) no-repeat 50%/80%
+}
+
+.close {
+    background: var(--color-normal-dark) url(../images/close.svg) no-repeat 50%/80%
+}
+
+.go-page {
+    background: var(--color-highlight) url(../images/zoom.svg) no-repeat 50%/80%
+}
+
+.slide-video-play-icon::before {
+    background: url(../images/play.svg) no-repeat 50%/80%
+}
+
+.preloader::before {
+    background: url(../images/cycle.png) no-repeat center center
+}
+
+.grabbing {
+    cursor: ew-resize;
+    cursor: e-resize;
+    cursor: url(../images/grabbing.png) 8 8, move
+}
+
+.cursor {
+    cursor: url(../images/openhand.png) 8 8, move
+}
+
+.drag-cursor {
+    cursor: url(../images/grabbing.png) 8 8, move
+}
+
+#contact-loader {
+    background: url(../images/cycle.png) no-repeat center center
+}
+
+.add-button .icon {
+    background: url(../images/load.svg) no-repeat center center/contain
+}
+
+.close-add {
+    background: url(../images/close-add.svg) no-repeat 50%/80%
+}
+
+.slide-prev {
+    background: url(../images/previous.svg) no-repeat center center/contain
+}
+
+.slide-next {
+    background: url(../images/next.svg) no-repeat center center/contain
+}
+
+.color-grey-dark .slide-prev {
+    background: url(../images/previous1.svg) no-repeat center center/contain
+}
+
+.color-grey-dark .slide-next {
+    background: url(../images/next1.svg) no-repeat center center/contain
+}
+
+.next-pic {
+    background: url(../images/next.svg) no-repeat center center/contain
+}
+
+.prev-pic {
+    background: url(../images/previous.svg) no-repeat center center/contain
+}
+
+.list-document a::after {
+    background-image: url(../images/document-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 235%
+}
+
+.list-title-group::after,
+.list-title::after {
+    background-image: url(../images/plus-white.svg);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: left top
+}
+
+.list-item-group.open-group .list-title-group::after,
+.list-item.active .list-title::after {
+    background-position: right top
+}
+
+.top-shelf {
+    background-image: url(../images/bookshelf-top.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom
+}
+
+.center-shelf {
+    background-image: url(../images/bookshelf-center.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom
+}
+
+.bottom-shelf {
+    background-image: url(../images/bookshelf-bottom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top
+}
+
+.select-selected::after {
+    background: url(../images/arrow-down.png) no-repeat center center/contain
+}
+
+.select-arrow-active::after {
+    background: url(../images/arrow-down-active.png) no-repeat center center/contain
+}
+
+.distribution-map {
+    background: url(../images/marker.svg) no-repeat center center/contain
+}
+
+@media screen and (max-width: 680px) {
+    .captcha::after {
+        background: url(https://www.gstatic.com/recaptcha/api2/logo_48.png) no-repeat center center
+    }
+
+    .bottom-shelf {
+        background-position: center 95%
+    }
+}
