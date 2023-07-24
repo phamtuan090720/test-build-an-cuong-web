@@ -3813,7 +3813,7 @@ if (
       (ResizeWindows(),
       $('#home-page').length
         ? $('.loadicon').hasClass('loader') || ($('.loadicon').show(), $('.loadicon').addClass('loader'))
-        : $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+        : $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
       $('#levelmenu-page').length && $('.visual-regis').addClass('no-display'),
       $('.outer-nav').length && !$('#catalogue-page').length)
     ) {
@@ -5436,7 +5436,7 @@ function PicLoad(t, e) {
         }),
         $('.zoom-large').on('click', function () {
           $('html, body').addClass('no-scroll'),
-            $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+            $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
             $('.all-pics').addClass('show'),
             $('.all-pics').append('<div class="full size-large"  style="display:block"></div>'),
             $('.overlay-dark').addClass('show')
@@ -5563,7 +5563,7 @@ function subCategory() {
         $('.sub-active').text(''),
         $('.category-nav li').removeClass('current'),
         $(this).parent().addClass('current'),
-        $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>')
+        $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>')
       var e = $(this).attr('href'),
         i = $(this).attr('data-name'),
         s = $('.all-sub .current .link-load').text(),
@@ -5695,7 +5695,7 @@ function DetailsLoad(t, e, i) {
           ),
         $('.zoom-details').on('click', function (t) {
           t.preventDefault(),
-            $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+            $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
             $('.zoom-details').removeClass('active'),
             $(this).addClass('active')
           var e = $(this).attr('data-href')
@@ -6071,7 +6071,7 @@ function AgentLoad(t, e) {
           function () {
             $('.list-result li').on('click', function (t) {
               t.preventDefault(),
-                $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+                $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
                 $('.list-result li').removeClass('active'),
                 $(this).addClass('active')
               var e = $(this).find('.link-load-map').attr('data-href')
@@ -6106,7 +6106,7 @@ function checkNum(t, e) {
 }
 function ThumbZoom(t) {
   $('html, body').addClass('no-scroll'),
-    $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>')
+    $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>')
   var e = t
   $('.all-pics').hasClass('show')
     ? ($('.full').stop().show(),
@@ -6537,7 +6537,7 @@ function ContentLoad() {
     $('#model-design-page').length &&
       ($('.preload-product li a').on('click', function (t) {
         t.preventDefault(),
-          $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+          $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
           $('.preload-product li').removeClass('current')
         var e = $(this).attr('href'),
           i = $(this).attr('data-name'),
@@ -6592,14 +6592,14 @@ function ContentLoad() {
           changeUrl(i, s, n, a, $(this).attr('data-name'), s, n),
           $('html, body').addClass('no-scroll'),
           $('.loadx').length ||
-            ($('body').append('<div class="loadx" style="display:block"></div>'),
+            ($('body').append('<div class="loadx" style="display:none"></div>'),
             $('.overlay-dark').addClass('show'),
             popupLoad(e)),
           !1
         )
       }),
       $('.icon-360').on('click', function (t) {
-        t.preventDefault(), $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>')
+        t.preventDefault(), $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>')
         var e = $(this).attr('href'),
           i = ($(this).attr('data-name'), $(this).attr('href')),
           s = $(this).attr('data-title'),
@@ -6630,7 +6630,7 @@ function ContentLoad() {
     $('#showroom-page').length &&
       (subNav(),
       $('.icon-360').on('click', function (t) {
-        t.preventDefault(), $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>')
+        t.preventDefault(), $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>')
         var e = $(this).attr('href'),
           i = ($(this).attr('data-name'), $(this).attr('href')),
           s = $(this).attr('data-title'),
@@ -6676,7 +6676,7 @@ function ContentLoad() {
     if ($('#product-page').length) var e = $('.all-sub .current .link-load').text()
     $('.preload-product li a').on('click', function (t) {
       t.preventDefault(),
-        $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+        $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
         $('.preload-product li').removeClass('current')
       var i = $(this).attr('href'),
         s = $(this).attr('data-name')
@@ -6790,7 +6790,7 @@ function ContentLoad() {
       ($('.googlemap').length &&
         ($('.list-result li').on('click', function (t) {
           t.preventDefault(),
-            $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+            $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
             $('.list-result li').removeClass('active'),
             $(this).addClass('active')
           var e = $(this).find('.link-load-map').attr('data-href')
@@ -6827,7 +6827,7 @@ function ContentLoad() {
           $(this).parent().parent().parent().parent().find('.select-header').addClass('current'),
           $(this).closest('.select-box').fadeOut(100, 'linear'),
           $(this).parent().parent().parent().parent().removeClass('onclick'),
-          $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+          $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
           $('.quick-box li').removeClass('current'),
           $(this).parent().addClass('current')
         var e = $(this).find('h3').text(),
@@ -6933,7 +6933,7 @@ function ContentLoad() {
         t.preventDefault(),
           $('.news-link').addClass('no-link'),
           $('.load-content, .load-data, .load-iframe').removeClass('show'),
-          $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+          $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
           $('.link-page').removeClass('current'),
           $(this).addClass('current')
         var e = $(this).find('a').attr('data-details')
@@ -7003,7 +7003,7 @@ function ContentLoad() {
           changeUrl(i, s, n, a, $(this).attr('data-name'), s, n),
           $('html, body').addClass('no-scroll'),
           $('.loadx').length ||
-            ($('body').append('<div class="loadx" style="display:block"></div>'),
+            ($('body').append('<div class="loadx" style="display:none"></div>'),
             $('.overlay-dark').addClass('show'),
             popupLoad(e)),
           !1
@@ -7021,7 +7021,7 @@ function ContentLoad() {
       change_province(),
       $('.list-result li').on('click', function (t) {
         t.preventDefault(),
-          $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+          $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
           $('.list-result li').removeClass('active'),
           $(this).addClass('active')
         var e = $(this).find('.link-load-map').attr('data-href')
@@ -7101,7 +7101,7 @@ function ContentLoad() {
         return (
           $(this).addClass('current'),
           (window.location.hash = s),
-          $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+          $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
           $('html, body').addClass('no-scroll'),
           $('.overlay-dark').addClass('show'),
           $('.container')
@@ -7243,7 +7243,7 @@ function ContentLoad() {
       }),
       $('.button-tariff').on('click', function (t) {
         t.preventDefault(),
-          $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+          $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
           $('.button-tariff').removeClass('current'),
           $(this).addClass('current')
         var e = $(this).attr('href'),
@@ -7305,7 +7305,7 @@ function ContentLoad() {
         t.preventDefault(),
           $('.news-link').addClass('no-link'),
           $('.load-content, .load-data, .load-iframe').removeClass('show'),
-          $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+          $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
           $('.link-page').removeClass('current'),
           $(this).addClass('current')
         var e = $(this).find('a').attr('data-details')
@@ -7396,7 +7396,7 @@ function ContentLoad() {
         changeUrl(i, s, n, a, $(this).attr('data-name'), s, n),
         $('html, body').addClass('no-scroll'),
         $('.loadx').length ||
-          ($('body').append('<div class="loadx" style="display:block"></div>'),
+          ($('body').append('<div class="loadx" style="display:none"></div>'),
           $('.overlay-dark').addClass('show'),
           popupLoad(e)),
         !1
@@ -7409,7 +7409,7 @@ function ContentLoad() {
     $('#levelmenu-page').length &&
       (ListOpen(),
       $('.icon-360').on('click', function (t) {
-        t.preventDefault(), $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>')
+        t.preventDefault(), $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>')
         var e = $(this).attr('href'),
           i = ($(this).attr('data-name'), $(this).attr('href')),
           s = $(this).attr('data-title'),
@@ -7437,7 +7437,7 @@ function ZoomPic() {
     if ($(this).hasClass('zoom-pic') && Mobile.matches) {
       $('html, body').addClass('no-scroll'),
         $(this).parent().addClass('to-scrollZ'),
-        $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+        $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
         $('.all-pics').addClass('show'),
         $('.all-pics').append('<div class="full"  style="display:block"></div>'),
         $('.details-content').length
@@ -7519,7 +7519,7 @@ function Option() {
         changeUrl(i, s, n, a, $(this).attr('data-name'), s, n)
       }
       return (
-        $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+        $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
         $('html, body').addClass('no-scroll'),
         $('.overlay-dark').addClass('show'),
         $('.allvideo').fadeIn(300, 'linear', function () {
@@ -7534,7 +7534,7 @@ function Option() {
         i = $(this).attr('data-go') || -1
       if (
         ($('.slide-pic').length && $('.slide-pic').trigger('stop.btq.autoplay'),
-        $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+        $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
         '' != $(this).attr('data-hreflink') && null != $(this).attr('data-hreflink'))
       ) {
         var s = $(this).attr('data-hreflink'),
@@ -7554,7 +7554,7 @@ function Option() {
     }),
     $('.zoom:not(.design)').on('click', function () {
       $('html, body').addClass('no-scroll'),
-        $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+        $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
         $('.all-pics').addClass('show'),
         $('.all-pics').append('<div class="full"  style="display:block"></div>'),
         $('.overlay-dark').addClass('show')

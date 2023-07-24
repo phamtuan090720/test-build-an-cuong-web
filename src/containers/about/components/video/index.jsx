@@ -2,8 +2,11 @@ import classNames from 'classnames'
 import React, { useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import { styled } from 'styled-components'
+import VideoComponent from './VideoThumb'
 const SliderStyled = styled(Slider)`
-  width: 980px;
+  max-width: 980px;
+  min-width: 200px;
+  width: 100%;
 `
 const ContainerIn = styled.div`
   .wrap-slider-video {
@@ -20,6 +23,9 @@ const ContainerIn = styled.div`
       right: -80px;
       top: 50%;
       transform: translateY(-50%);
+      @media (max-width: 1024px) {
+        display: none;
+      }
     }
     .btn-prev {
       background: url(/images/previous.svg) no-repeat center center/contain;
@@ -30,6 +36,9 @@ const ContainerIn = styled.div`
       left: -80px;
       top: 50%;
       transform: translateY(-50%);
+      @media (max-width: 1024px) {
+        display: none;
+      }
     }
   }
 `
@@ -37,6 +46,7 @@ const ContainerIn = styled.div`
 const Video = () => {
   const slider = React.useRef(null)
   const [page, setPage] = useState(0)
+  const [playVideo, setPlayVideo] = useState(0)
   useEffect(() => {
     if (slider.current) {
       slider.current?.slickGoTo(page)
@@ -55,6 +65,7 @@ const Video = () => {
       setPage(index)
     }
   }
+
   return (
     <section
       className='content-page set-post'
@@ -87,52 +98,21 @@ const Video = () => {
         <ContainerIn className='container-in'>
           <div className='wrap-slider-video'>
             <SliderStyled ref={slider} {...setting} prevArrow={null} nextArrow={null}>
-              <div
-                className='item-video'
-                data-video='https://youtu.be/yv9DjTvBzGg'
-                data-src='https://www.ancuong.com/pictures/catalog/about/he-thong-showroom/dat-cuoc/2000-x-1115.jpg'
-              >
-                <div className='title-video'>
-                  <h3>AN CƯỜNG - VER 2020</h3>
-                </div>
-                <div className='slide-video-wrapper'>
-                  <a className='slide-video' href='https://youtu.be/yv9DjTvBzGg' style={{ display: 'none' }} />
-                  <div className='slide-video-play-icon' />
-                  <div
-                    className='slide-video-tn'
-                    style={{
-                      opacity: 1,
-                      backgroundImage:
-                        'url(https://www.ancuong.com/pictures/catalog/about/he-thong-showroom/dat-cuoc/2000-x-1115.jpg)'
-                    }}
-                  ></div>
-                </div>
+              <div className='item-video' onClick={() => setPlayVideo(1)}>
+                <VideoComponent
+                  src='https://www.youtube.com/embed/yv9DjTvBzGg'
+                  img='/images/2000-x-1115.jpg'
+                  title='AN CƯỜNG - VER 2029'
+                  show={playVideo === 1}
+                />
               </div>
-              <div
-                className='item-video'
-                data-video='https://youtu.be/yv9DjTvBzGg'
-                data-src='https://www.ancuong.com/pictures/catalog/about/he-thong-showroom/dat-cuoc/2000-x-1115.jpg'
-              >
-                <div className='title-video'>
-                  <h3>AN CƯỜNG - VER 2019</h3>
-                </div>
-                <div className='slide-video-wrapper'>
-                  <a className='slide-video' href='https://youtu.be/yv9DjTvBzGg' style={{ display: 'none' }} />
-                  <button
-                    className='slide-video-play-icon'
-                    onClick={() => {
-                      alert('hello')
-                    }}
-                  />
-                  <div
-                    className='slide-video-tn'
-                    style={{
-                      opacity: 1,
-                      backgroundImage:
-                        'url(https://www.ancuong.com/pictures/catalog/about/he-thong-showroom/dat-cuoc/2000-x-1115.jpg)'
-                    }}
-                  ></div>
-                </div>
+              <div className='item-video' onClick={() => setPlayVideo(2)}>
+                <VideoComponent
+                  src='https://www.youtube.com/embed/CHinU9ageE8'
+                  img='/images/bg.jpg'
+                  title='AN CƯỜNG - VER 2020'
+                  show={playVideo === 2}
+                />
               </div>
             </SliderStyled>
             <button onClick={() => slider?.current?.slickPrev()} className='btn-prev'></button>
@@ -145,7 +125,7 @@ const Video = () => {
                   'active current': page === 0,
                   'slide-item': true
                 })}
-                style={{ width: '95.833px', marginRight: 5, zIndex: 10 }}
+                style={{ width: '95.833px', marginRight: 5 }}
                 onClick={() => {
                   slider.current?.slickGoTo(0)
                 }}
@@ -165,7 +145,7 @@ const Video = () => {
                   'active current': page === 1,
                   'slide-item': true
                 })}
-                style={{ width: '95.833px', marginRight: 5, zIndex: 10 }}
+                style={{ width: '95.833px', marginRight: 5 }}
                 onClick={() => {
                   slider.current?.slickGoTo(1)
                 }}
@@ -173,7 +153,7 @@ const Video = () => {
                 <div
                   className='thumb-item'
                   data-thumb='https://youtu.be/CHinU9ageE8'
-                  data-src='https://www.ancuong.com/pictures/catalog/video/bg.jpg'
+                  data-src='/images/bg.jpg'
                 >
                   <button aria-label='thumb'>
                     <img src='/images/bg.jpg' alt='pic' />

@@ -4,9 +4,9 @@ const Banner = ({ items = [] }) => {
   console.log('🚀 ~ file: index.jsx:4 ~ Banner ~ items:', items)
   return (
     <div className='slide-mask' data-time={5000}>
-      {items.map((item) => {
+      {items.map((item, index) => {
         return (
-          <div className='wrap-bg-home'>
+          <div className='wrap-bg-home' key={index}>
             <div
               className='bg-home center-text'
               style={{

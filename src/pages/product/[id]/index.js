@@ -1,17 +1,17 @@
-import Loading from '@/components/loading'
-import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import React from 'react'
-const AboutContainer = dynamic(
-  () => {
-    return import('../containers/about')
-  },
-  {
-    loading: () => <Loading className='loading-page' />,
-    ssr: false
-  }
-)
-const About = () => {
+import dynamic from 'next/dynamic'
+import Loading from '@/components/loading'
+export default function ProductDetail() {
+  const ProductDetailContainer = dynamic(
+    () => {
+      return import('@/containers/product/product-detail')
+    },
+    {
+      loading: () => <Loading className='loading-page' />,
+      ssr: false
+    }
+  )
   return (
     <>
       <Head>
@@ -98,10 +98,8 @@ const About = () => {
         {/* End Event snippet for Lu?t xem trang Ac conversion page */}
       </Head>
       <main>
-        <AboutContainer />
+        <ProductDetailContainer />
       </main>
     </>
   )
 }
-
-export default About

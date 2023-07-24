@@ -1,2 +1,17 @@
 @import '~slick-carousel/slick/slick.css';
 @import '~slick-carousel/slick/slick-theme.css';
+
+.loading-page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10000000;
+    transform: translate(-50%);
+}
+
+.loading {
+    border-radius: 50%;
+    animation: Rotate 1.5s linear infinite;
+    width: 82px;
+    height: 82px;
+}
