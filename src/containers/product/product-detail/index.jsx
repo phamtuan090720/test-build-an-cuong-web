@@ -20,6 +20,68 @@ const ProductDetail = () => {
       setTab(query.tab)
     }
   }, [query.tab])
+  const listNavItem = [
+    {
+      tab: 'description',
+      href: '/product/1',
+      title: 'Mô tả'
+    },
+    {
+      tab: 'trend',
+      href: '/product/1',
+      title: 'Trend'
+    },
+    {
+      tab: 'woodgrain',
+      href: '/product/1',
+      title: 'Woodgrains'
+    },
+    {
+      tab: 'color',
+      href: '/product/1',
+      title: 'Solid Colors'
+    },
+    {
+      tab: 'patten',
+      href: '/product/1',
+      title: 'Patten'
+    },
+    {
+      tab: 'application',
+      href: '/product/1',
+      title: 'Ứng dụng'
+    },
+    {
+      tab: 'catalogue',
+      href: '/product/1',
+      title: 'Catalogue'
+    }
+  ]
+  const renderNavItem = (arr) => {
+    return arr.map((item) => {
+      return (
+        <>
+          <li
+            className={classNames({
+              current: tab == item?.tab
+            })}
+          >
+            <a
+              style={{
+                cursor: 'pointer'
+              }}
+              onClick={(e) => {
+                e.preventDefault()
+                setTab(item?.tab)
+              }}
+            >
+              {item?.title}
+            </a>
+          </li>
+        </>
+      )
+    })
+  }
   return (
     <>
       <LayoutApp>
@@ -29,89 +91,7 @@ const ProductDetail = () => {
               <span className='group'>Sản phẩm chính</span>
               <h2>VÁN MFC &amp; CÁC LOẠI VÁN PHỦ MELAMINE</h2>
               <div className='sub-nav'>
-                <ul>
-                  <li
-                    className={classNames({
-                      current: tab == 'description'
-                    })}
-                  >
-                    <a
-                      href='/product/1'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='desciption'
-                    >
-                      Mô tả
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-tab2.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='tab2'
-                    >
-                      Trend
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-woodgrain.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='woodgrain'
-                    >
-                      Woodgrains
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-solidcolor.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='color'
-                    >
-                      Solid Colors
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-tab1.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='tab1'
-                    >
-                      Patterns
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-application.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='application'
-                    >
-                      Ứng dụng
-                    </a>
-                  </li>
-                  <li className={classNames({ current: tab == 'catalogue' })}>
-                    <a
-                      href='/product/1?tab=catalogue'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='catalogue'
-                    >
-                      Catalogue
-                    </a>
-                  </li>
-                </ul>
+                <ul>{renderNavItem(listNavItem)}</ul>
               </div>
               <div className='wheel-submit wheel-next'>
                 <span />
@@ -169,89 +149,7 @@ const ProductDetail = () => {
               <span className='group'>Sản phẩm chính</span>
               <h2>VÁN MFC &amp; CÁC LOẠI VÁN PHỦ MELAMINE</h2>
               <div className='sub-nav'>
-                <ul>
-                  <li
-                    className={classNames({
-                      current: tab == 'description'
-                    })}
-                  >
-                    <a
-                      href='/product/1'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='desciption'
-                    >
-                      Mô tả
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-tab2.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='tab2'
-                    >
-                      Trend
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-woodgrain.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='woodgrain'
-                    >
-                      Woodgrains
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-solidcolor.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='color'
-                    >
-                      Solid Colors
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-tab1.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='tab1'
-                    >
-                      Patterns
-                    </a>
-                  </li>
-                  <li className>
-                    <a
-                      href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-mfc--cac-loai-van-phu-melamine/melamine-phu-tren-van-dam-mfc/page-application.html'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='application'
-                    >
-                      Ứng dụng
-                    </a>
-                  </li>
-                  <li className={classNames({ current: tab == 'catalogue' })}>
-                    <a
-                      href='/product/1?tab=catalogue'
-                      data-title='Melamine Phủ Trên Ván Dăm (MFC)'
-                      data-description
-                      data-keyword
-                      data-name='catalogue'
-                    >
-                      Catalogue
-                    </a>
-                  </li>
-                </ul>
+                <ul>{renderNavItem(listNavItem)}</ul>
               </div>
               <div className='wheel-submit wheel-next'>
                 <span />

@@ -1257,7 +1257,7 @@ $('#btn-contact-submit').click(function () {
   $('#btn-recruitment-submit').click(function () {
     return 1 == validaterecruitment()
       ? ($('#btn-recruitment-submit').attr('disabled', 'disabled'),
-        $('.loadx').length || $('body').append('<div class="loadx" style="display:block"></div>'),
+        $('.loadx').length || $('body').append('<div class="loadx" style="display:none"></div>'),
         $('#recruitment_form').submit(),
         !1)
       : ($('.formError').click(function () {

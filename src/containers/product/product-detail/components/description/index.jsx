@@ -64,7 +64,7 @@ const Description = () => {
                 <button className='share-but' aria-label='share'>
                   Chia sẻ
                 </button>
-                <div className='share-item' style={{ width: 'max-content', right: '-80%', height: '24px' }}>
+                <div className='share-item'>
                   <ul>
                     <li>
                       <a

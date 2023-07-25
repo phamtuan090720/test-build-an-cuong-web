@@ -56,11 +56,7 @@ const Header = () => {
         </div>
       </div>
       <div className='wrap-social-facilities' ref={socialFacilitiesRef}>
-        <a
-          className='news-regis regis-fixed special-grad'
-          href='https://www.ancuong.com/vi/tin-tuc/ban-tin-an-cuong.html#form'
-          aria-label='newsregister'
-        >
+        <a className='news-regis regis-fixed special-grad' href='/' aria-label='newsregister'>
           <span className='icon-news-regis'>
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 404 404'>
               <path
@@ -84,7 +80,7 @@ l105.4,61.4L285.4,179v-12c0-3-2.5-5.5-5.5-5.5H124.1c-3,0-5.5,2.5-5.5,5.5v12.2L97
         <a
           className='news-regis regis-fixed special-grad'
           aria-label='levelmenu'
-          href='https://www.ancuong.com/vi/3d-vr-360.html'
+          href='/'
           data-name={429}
           data-title='An Cuong wood working materials'
           data-description='An Cuong wood working materials'
@@ -201,12 +197,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
           <div className='navigation'>
             <ul>
               <li>
-                <a
-                  className='link-home link-load'
-                  href='https://www.ancuong.com/'
-                  data-name='home-page'
-                  aria-label='home'
-                >
+                <a className='link-home link-load' href='/' data-name='home-page' aria-label='home'>
                   <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 50'>
                     <path fill='currentColor' d='M30,11L14,27h6l2,12h6v-6h4v6h6l2-12h6L30,11z' />
                   </svg>
@@ -242,7 +233,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                       <div className='title-sub newproduct '>
                         <a
                           className='link-load special-nav'
-                          href='https://www.ancuong.com/vi/san-pham-moi.html'
+                          href='/'
                           data-name='product-454'
                           data-title='Sản phẩm mới'
                           data-description
@@ -309,7 +300,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-laminates/laminate-kingdom-2.html'
+                              href='/'
                               data-name='product-10'
                               data-title='An Cường - Laminate Kingdom'
                               data-description='Laminate đang mở ra nhiều khả năng ứng dụng đầy mê hoặc và đáng ngạc nhiên cho công nghiệp đồ gỗ và trang trí nội thất.'
@@ -321,7 +312,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-laminates/laminate-imo.html'
+                              href='/'
                               data-name='product-41'
                               data-title='Laminate IMO (International Marine Organization)'
                               data-description
@@ -333,7 +324,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-laminates/formica-laminate.html'
+                              href='/'
                               data-name='product-12'
                               data-title='An Cường - Formica Laminate'
                               data-description='An Cường là nhà cung cấp nguyên vật liệu trang trí nội thất và vật liệu décor hàng đầu tại Việt Nam từ năm 1994. Từ ngày 01.07.2009, chúng tôi được chỉ định là nhà phân phối độc quyền các dòng sản phẩm Formica® Laminate tại thị trường Việt Nam.'
@@ -345,7 +336,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-laminates/laminate-kingdom-basic.html'
+                              href='/'
                               data-name='product-58'
                               data-title='KINGDOM BASIC'
                               data-description='KINGDOM BASIC là dòng laminate tiêu chuẩn. Bên cạnh những ưu điểm vốn có của tấm laminate như đẹp, bền, dễ thi công, ứng dụng đa dạng trong nội thất gỗ công nghiệp'
@@ -367,7 +358,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-acrylic-bong-guong/high-quality-acrylic.html'
+                              href='/'
                               data-name='product-8'
                               data-title='High quality - Acrylic'
                               data-description='An Cường là công ty tiên phong tại khu vực Đông Nam Á trong việc đầu tư hơn 3 triệu USD trang bị dây chuyền dán tấm Acrylic bóng gương và dây chuyền dán chỉ không đường cạnh hiện đại của Đức, có thể dán tấm Acrylic trên mọi bề mặt gỗ. 100% tấm Acrylic đều'
@@ -379,7 +370,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-acrylic-bong-guong/premium-sky-lux-acrylic.html'
+                              href='/'
                               data-name='product-59'
                               data-title='Premium - Sky Lux Acrylic'
                               data-description='Cùng An Cường khám phá 5 tông màu Sky Lux Acrylic mới ngay bây giờ nhé!'
@@ -391,7 +382,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-acrylic-bong-guong/standard-arilux-plus.html'
+                              href='/'
                               data-name='product-6'
                               data-title='Standard - Arilux Plus'
                               data-description='Hiện nay, tấm ARILUX PLUS đã có tồn kho sẵn với số lượng lớn trên lõi ván MDF chống ẩm 17mm hoặc tấm phôi có độ dày 0.7mm, giúp Khách hàng thoải mái chọn lựa tuỳ theo nhu cầu thực tế'
@@ -413,7 +404,7 @@ S35.9,17.8,48,17.8s21.9,9.8,21.9,21.9S60.1,61.6,48,61.6z'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-san/san-go-cong-nghiep-an-cuong.html'
+                              href='/'
                               data-name='product-23'
                               data-title='Sàn Gỗ Công Nghiệp An Cường'
                               data-description='Sàn gỗ An Cường- tiêu chuẩn mới cho nội thất hiện đại!
@@ -426,7 +417,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-san/an-cuong--kronospan---12mm--15mm.html'
+                              href='/'
                               data-name='product-22'
                               data-title='An Cường / Kronospan - 12MM / 15MM'
                               data-description='Bộ sưu tập gồm 9 màu vân gỗ ấn tượng được sản xuất trên dây chuyền công nghệ hiện đại bậc nhất về sàn gỗ công nghiệp của TẬP ĐOÀN KRONOSPAN danh tiếng trên thế giới, theo tiêu chuẩn E1 và AC3 của châu Âu, an toàn cho người sử dụng và vật nuôi trong nhà.'
@@ -448,7 +439,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-lam-trang-tri/acoustic-panel.html'
+                              href='/'
                               data-name='product-55'
                               data-title='ACOUSTIC PANEL'
                               data-description='Hotline: 19006944 | www.ancuong.com'
@@ -460,7 +451,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-lam-trang-tri/tam-trang-tri-tran-vach.html'
+                              href='/'
                               data-name='product-56'
                               data-title='TẤM TRANG TRÍ TRẦN & VÁCH'
                               data-description='Hotline: 19006944 | www.ancuong.com'
@@ -472,7 +463,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-lam-trang-tri/tam-trang-tri-lambri.html'
+                              href='/'
                               data-name='product-57'
                               data-title='TẤM TRANG TRÍ LAMBRI'
                               data-description='Hotline: 19006944 | www.ancuong.com'
@@ -494,7 +485,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-eco-veneer/veneer.html'
+                              href='/'
                               data-name='product-9'
                               data-title='An Cường - Veneer'
                               data-description='Công ty An Cường là đơn vị tiên phong ở Việt Nam cung cấp dòng sản phẩm gỗ lạng veneer cao cấp nhất được nhập khẩu 100% từ những công ty có bề dày kinh nghiệm hơn 70 năm sản xuất Veneer tại Ý.'
@@ -506,7 +497,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/tam-eco-veneer/eco-veneer.html'
+                              href='/'
                               data-name='product-5'
                               data-title='An Cường - Eco-Veneer'
                               data-description='Nhằm đa dạng hóa sản phẩm để đáp ứng nhu cầu ngày càng cao của thị trường, Công ty Gỗ An Cường ra mắt sản phẩm Eco Veneer (Veneer nhân tạo) có hiệu ứng như Veneer thật để phục vụ Quý khách.'
@@ -528,7 +519,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/vat-lieu-chong-chay-cham-chay/tam-chong-chay-an-cuong-fire-proof-board.html'
+                              href='/'
                               data-name='product-54'
                               data-title='TẤM CHỐNG CHÁY AN CƯỜNG (FIRE PROOF BOARD)'
                               data-description='Tấm chống cháy An Cường – Fireproof Board được sản xuất bằng công nghệ ép tấm mới nhất của Châu Âu.'
@@ -540,7 +531,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/vat-lieu-chong-chay-cham-chay/tam-van-cham-chay-tam-frb-.html'
+                              href='/'
                               data-name='product-53'
                               data-title='TẤM VÁN CHẬM CHÁY (TẤM FRB) '
                               data-description='Tấm chống cháy MGO với khả năng chống cháy tốt và đặc biệt không sinh khói khi tiếp xúc với lửa, thân thiện với môi trường và dễ dàng thi công.'
@@ -552,7 +543,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/vat-lieu-chong-chay-cham-chay/tam-mgo.html'
+                              href='/'
                               data-name='product-62'
                               data-title='TẤM MGO'
                               data-description='Tấm chống cháy MGO là dòng ván công nghiệp có khả năng chống cháy, chịu ẩm tốt, cách âm, chống côn trùng và có độ bền cao, đặc biệt thích hợp cho thi công trần và vách ngăn.'
@@ -574,7 +565,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/vat-lieu-ngoai-troi/tam-trang-tri-ngoai-troi.html'
+                              href='/'
                               data-name='product-60'
                               data-title='TẤM TRANG TRÍ NGOÀI TRỜI'
                               data-description='Sản phẩm TẤM TRANG TRÍ NGOÀI TRỜI sẽ là lựa chọn hoàn hảo, bền, đẹp tự nhiên như bề mặt gỗ thật, để ứng dụng cho các dự án của Quý khách.'
@@ -596,7 +587,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/phu-kien/hettich-2.html'
+                              href='/'
                               data-name='product-27'
                               data-title='An Cuong wood working materials'
                               data-description='An Cuong wood working materials'
@@ -608,7 +599,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/phu-kien/imundex-2.html'
+                              href='/'
                               data-name='product-28'
                               data-title='An Cuong wood working materials'
                               data-description='An Cuong wood working materials'
@@ -630,7 +621,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/san-pham-ho-tro/chi-nhua-pvc--abs--3d.html'
+                              href='/'
                               data-name='product-29'
                               data-title='An Cuong wood working materials'
                               data-description='An Cuong wood working materials'
@@ -642,7 +633,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/san-pham-ho-tro/keo-nong-chay-dan-hat.html'
+                              href='/'
                               data-name='product-30'
                               data-title='KEO NÓNG CHẢY DẠNG HẠT'
                               data-description='Xin giới thiệu đến Quý khách hàng dòng sản phẩm KEO ADINO – KEO NÓNG CHẢY DẠNG HẠT được An Cường nhập khẩu và phân phối trực tiếp'
@@ -654,7 +645,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/san-pham-ho-tro/he-op-vach-dang-cai-1.html'
+                              href='/'
                               data-name='product-32'
                               data-title='HỆ ỐP VÁCH DẠNG CÀI'
                               data-description='Giải pháp này giúp khách hàng dễ dàng, tiện lợi trong thi công lắp đặt cùng với việc bảo đảm tính lâu bền cho vách tường gỗ: chống mối mọt, kháng nước rất hiệu quả. '
@@ -676,7 +667,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/san-pham-ve-sinh-bao-ve-noi-that/xit-chong-moc-cho-go-noi-that.html'
+                              href='/'
                               data-name='product-61'
                               data-title='XỊT CHỐNG MỐC CHO GỖ NỘI THẤT'
                               data-description='Hãy chọn An Cường để tạo ra một môi trường sống lành mạnh và an toàn cho bạn cùng gia đình.'
@@ -698,7 +689,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-tho-cong-nghiep/tam-pb-chong-am-loi-xanh.html'
+                              href='/'
                               data-name='product-4'
                               data-title='An Cường - Tấm PB Chống Ẩm Lõi Xanh V313'
                               data-description='An Cuong wood working materials'
@@ -710,7 +701,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-tho-cong-nghiep/tam-hdf-chong-am-tieu-chuan-e1.html'
+                              href='/'
                               data-name='product-16'
                               data-title='An Cường - Tấm HDF '
                               data-description='An Cuong wood working materials'
@@ -722,7 +713,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-tho-cong-nghiep/tam-mdf-chong-am-loi-xanh.html'
+                              href='/'
                               data-name='product-15'
                               data-title='An Cường - Tấm MDF Chống Ẩm Lõi Xanh V313'
                               data-description='An Cuong wood working materials'
@@ -734,7 +725,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-tho-cong-nghiep/tam-black-hdf.html'
+                              href='/'
                               data-name='product-17'
                               data-title='An Cuong wood working materials'
                               data-description='An Cuong wood working materials'
@@ -746,7 +737,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-tho-cong-nghiep/tam-osb.html'
+                              href='/'
                               data-name='product-18'
                               data-title='Tấm OSB'
                               data-description='Ván OSB (Oriented Strand Board, hay còn được gọi là ván dăm định hướng) là một trong số những dòng ván công nghiệp có nhiều ứng dụng được sử dụng trên thế giới. '
@@ -758,7 +749,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-tho-cong-nghiep/tam-wpb.html'
+                              href='/'
                               data-name='product-19'
                               data-title='An Cuong wood working materials'
                               data-description='An Cuong wood working materials'
@@ -770,7 +761,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/van-tho-cong-nghiep/go-plywood-chong-nuoc.html'
+                              href='/'
                               data-name='product-20'
                               data-title='An Cuong wood working materials'
                               data-description='An Cuong wood working materials'
@@ -792,7 +783,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/cua-go-cong-nghiep/cua-chong-chay--vat-lieu-hoan-thien--kieu-dang.html'
+                              href='/'
                               data-name='product-24'
                               data-title='Cửa Chống Cháy / Vật Liệu Hoàn thiện / Kiểu Dáng'
                               data-description='Với kho vật liệu bề mặt khổng lồ từ 1500 màu sắc và bề mặt hoàn thiện khác nhau trong các bộ sưu tập Melamine, Laminate, Acrylic, Veneer của An Cường. Chúng tôi cung cấp giải pháp vô tận cho các thiết kế cửa hiện đại theo xu thế của thị trường.'
@@ -804,7 +795,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/cua-go-cong-nghiep/cua-chong-nuoc--vat-lieu-hoan-thien--kieu-dang.html'
+                              href='/'
                               data-name='product-25'
                               data-title='Cửa Chống Nước / Vật Liệu Hoàn thiện / Kiểu Dáng'
                               data-description='Cửa gỗ chống nước An Cường với lõi sử dụng tấm WPB có kết cấu gốc nhựa, trọng lượng nhẹ, chậm cháy và hoàn toàn chống nước, được sử dụng rộng rãi cho các thiết kế quảng cáo, hội chợ, trang trí nội và ngoại thất, đặc biệt là cửa chống nước, tủ bếp, tủ vệ s'
@@ -816,7 +807,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/cua-go-cong-nghiep/cua-chong-am--vat-lieu-hoan-thien--kieu-dang.html'
+                              href='/'
                               data-name='product-26'
                               data-title='Cửa Chống Ẩm / Vật Liệu Hoàn thiện / Kiểu Dáng'
                               data-description='An Cường phát huy tối đa đặc tính của MDF chống ẩm vào ứng dụng thi công cửa nhà vệ sinh, phòng bếp những khu vực thường xuyên tiếp xúc với nước và có độ ẩm cao.'
@@ -838,7 +829,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/smarthome/schneider.html'
+                              href='/'
                               data-name='product-42'
                               data-title='SCHNEIDER ELECTRIC'
                               data-description
@@ -850,7 +841,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/san-pham/san-pham-chinh/smarthome/san-pham-ho-tro-2.html'
+                              href='/'
                               data-name='product-43'
                               data-title='SẢN PHẨM HỖ TRỢ'
                               data-description
@@ -868,7 +859,7 @@ Hotline: 19006944 | www.ancuong.com'
               <li>
                 <a
                   className='link-load btn'
-                  href='https://www.ancuong.com/vi/giai-phap.html'
+                  href='/'
                   data-name='news-page'
                   data-title='Giải pháp'
                   data-description
@@ -896,7 +887,7 @@ Hotline: 19006944 | www.ancuong.com'
                       <div className='item-sub '>
                         <a
                           className='link-load sub-btn'
-                          href='https://www.ancuong.com/vi/du-an/du-an-trong-nuoc.html'
+                          href='/'
                           data-sub
                           data-name='product-437'
                           data-title='DỰ ÁN TRONG NƯỚC'
@@ -917,7 +908,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/an-cuong-manufacturing-factory-introduction.html'
+                              href='/'
                               data-name='product-45'
                               data-title='AN CUONG MANUFACTURING FACTORY INTRODUCTION'
                               data-description
@@ -929,7 +920,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/walmart---vanity.html'
+                              href='/'
                               data-name='product-40'
                               data-title='Walmart - Vanity'
                               data-description
@@ -941,7 +932,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/bathroom-vanity--laundry-cabinet.html'
+                              href='/'
                               data-name='product-46'
                               data-title='BATHROOM VANITY / LAUNDRY CABINET'
                               data-description
@@ -953,7 +944,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/kitchen-cabinets.html'
+                              href='/'
                               data-name='product-47'
                               data-title='KITCHEN CABINETS'
                               data-description
@@ -965,7 +956,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/bedroom-furniture.html'
+                              href='/'
                               data-name='product-48'
                               data-title='BEDROOM FURNITURE'
                               data-description
@@ -977,7 +968,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/office-furniture--furniture-for-school.html'
+                              href='/'
                               data-name='product-49'
                               data-title='OFFICE FURNITURE & FURNITURE FOR SCHOOL'
                               data-description
@@ -989,7 +980,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/furniture-for-hospitality-projects.html'
+                              href='/'
                               data-name='product-50'
                               data-title='FURNITURE FOR HOSPITALITY PROJECTS'
                               data-description
@@ -1001,7 +992,7 @@ Hotline: 19006944 | www.ancuong.com'
                           <div className='second-sub '>
                             <a
                               className='link-load sub-btn'
-                              href='https://www.ancuong.com/vi/du-an/xuat-khau/shipbuilding-materials.html'
+                              href='/'
                               data-name='product-51'
                               data-title='SHIPBUILDING MATERIALS'
                               data-description
@@ -1015,7 +1006,7 @@ Hotline: 19006944 | www.ancuong.com'
                       <div className='item-sub '>
                         <a
                           className='link-load sub-btn'
-                          href='https://ancuong.com/vi/tin-tuc/export.html'
+                          href='/'
                           data-sub
                           data-name='product-439'
                           data-title='Tin tức xuất khẩu'
@@ -1030,21 +1021,14 @@ Hotline: 19006944 | www.ancuong.com'
                 </div>
               </li>
               <li>
-                <a
-                  className='link-load btn special-nav'
-                  href='https://www.ancuong.com/vi/showroom.html'
-                  data-name='showroom-page'
-                  data-title='Showroom'
-                  data-description
-                  data-keyword
-                >
+                <a className='link-load btn special-nav' href='/' data-title='Showroom' data-description data-keyword>
                   Showroom
                 </a>
               </li>
               <li>
                 <a
                   className='link-load btn'
-                  href='https://www.ancuong.com/vi/youtube.html'
+                  href='/'
                   data-name='youtube-page'
                   data-title='Youtube'
                   data-description
@@ -1056,7 +1040,7 @@ Hotline: 19006944 | www.ancuong.com'
               <li>
                 <a
                   className='link-load btn'
-                  href='https://www.ancuong.com/vi/tin-tuc.html'
+                  href='/'
                   data-name='news-page'
                   data-title='An Cuong wood working materials'
                   data-description='An Cuong wood working materials'
@@ -1068,7 +1052,7 @@ Hotline: 19006944 | www.ancuong.com'
               <li>
                 <a
                   className='link-load btn'
-                  href='https://www.ancuong.com/vi/quan-he-nha-dau-tu.html'
+                  href='/'
                   data-name='investment-page'
                   data-title='Quan hệ nhà đầu tư'
                   data-description
@@ -1095,7 +1079,7 @@ Hotline: 19006944 | www.ancuong.com'
                   <div className='item-sub '>
                     <a
                       className='link-blank second-btn'
-                      href='https://ida.ancuong.com/'
+                      href='/'
                       data-name='award-page'
                       data-title='Năm 2023'
                       data-description
@@ -1107,7 +1091,7 @@ Hotline: 19006944 | www.ancuong.com'
                   <div className='item-sub '>
                     <a
                       className='link-load second-btn'
-                      href='https://www.ancuong.com/vi/ida/interior-design-award-2022.html'
+                      href='/'
                       data-name='award-page'
                       data-title='INTERIOR DESIGN AWARD 2022'
                       data-description='Giải thưởng IDA được xem là giải thưởng thường niên của Công Ty Cổ Phần Gỗ An Cường ở nhiều lĩnh vực khác nhau như kiến trúc, nội thất, sáng tạo họa tiết trên vật liệu mới..., nhằm mục đích kết nối, phát triển và vinh danh những Kiến trúc sư, Nhà thiết kế'
@@ -1119,7 +1103,7 @@ Hotline: 19006944 | www.ancuong.com'
                   <div className='item-sub '>
                     <a
                       className='link-load second-btn'
-                      href='https://www.ancuong.com/vi/ida/nam-2021.html'
+                      href='/'
                       data-name='award-page'
                       data-title='INTERIOR DESIGN AWARD 2021'
                       data-description='Với sự đầu tư công phu và kỹ lưỡng, cuộc thi An Cường Interior Design Award 2021 sẽ chính thức nhận hồ sơ dự thi từ 01/07/2021 – 20/08/2021 cùng chủ đề chính “Story-telling through your space – Kể câu chuyện của bạn qua không gian Nội Thất”, hứa hẹn là mộ'
@@ -1146,7 +1130,7 @@ Hotline: 19006944 | www.ancuong.com'
                   <div className='item-sub '>
                     <a
                       className='link-load second-btn'
-                      href='https://www.ancuong.com/vi/catalogue/catalogue-.html'
+                      href='/'
                       data-name='catalogue-page'
                       data-title='Online Catalogue'
                       data-description
@@ -1158,7 +1142,7 @@ Hotline: 19006944 | www.ancuong.com'
                   <div className='item-sub '>
                     <a
                       className='link-load second-btn'
-                      href='https://www.ancuong.com/vi/catalogue/map-mau.html'
+                      href='/'
                       data-name='mapcolor-page'
                       data-title='An Cuong wood working materials'
                       data-description='An Cuong wood working materials'
@@ -1183,14 +1167,14 @@ Hotline: 19006944 | www.ancuong.com'
                 </div>
                 <div className='sub-menu' data-menu='two'>
                   <div className='item-sub '>
-                    <a className='second-btn link-blank' href='https://ancuong.com/tu-van-truc-tuyen/'>
+                    <a className='second-btn link-blank' href='/'>
                       Tư vấn trực tuyến
                     </a>
                   </div>
                   <div className='item-sub '>
                     <a
                       className='link-load second-btn'
-                      href='https://www.ancuong.com/vi/lien-he/he-thong-ban-hang.html'
+                      href='/'
                       data-name='contact-page'
                       data-title='Hệ thống bán hàng'
                       data-description

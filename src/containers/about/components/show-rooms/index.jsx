@@ -390,8 +390,8 @@ const ShowRooms = () => {
               listItems={listItems}
               onClick={() => {}}
               slickConfig={{
-                beforeChange: (current) => {
-                  setCurrentSlide(current)
+                beforeChange: (index) => {
+                  setCurrentSlide(index)
                 },
                 afterChange: (index) => setCurrentSlide(index),
                 appendDots: (dots) => (

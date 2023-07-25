@@ -150,11 +150,7 @@ const Video = () => {
                   slider.current?.slickGoTo(1)
                 }}
               >
-                <div
-                  className='thumb-item'
-                  data-thumb='https://youtu.be/CHinU9ageE8'
-                  data-src='/images/bg.jpg'
-                >
+                <div className='thumb-item' data-thumb='https://youtu.be/CHinU9ageE8' data-src='/images/bg.jpg'>
                   <button aria-label='thumb'>
                     <img src='/images/bg.jpg' alt='pic' />
                   </button>
